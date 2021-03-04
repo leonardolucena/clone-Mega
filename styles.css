@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.containe{
+    display: flex;
+}
+
+.container-primarity{
+    background-color: #222222;
+    width: 48px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-cima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+}
+
+.menu-baixo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.imagem{
+    height: 23px;
+    width: 23px;
+}
+
+.direita {
+    border-left: 2px solid #ff333a;
+}
+
+.container-secondarity{
+    background-color: #f5f5f5;
+    width: 256px;
+    border-right: 1px solid #e4e4e4;
+}
+
+.top-up{
+    width: 256px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d90007;
+}
+
+.top-up p{
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: -7px;
+}
+
+.top-middle{
+    width: 256px;
+    height: 36px;
+    background-color: #f5f5f5;
+    color: #5c676d;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #e4e4e4;
+
+}
+
+.top-middle img {
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.top-middle p {
+    padding: 0px 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.top-back{
+    display: flex;
+    padding-left: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.top-back p{
+    padding: 3px 8px;
+    color: #353535;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.top-back img {
+    height: 18px;
+    width: 18px;
+    margin-left: 1px;
+}
+
+.container-tree{
+    background-color: #fafafa;
+    width: 1062px;
+}
+
+.topo{
+    background-color: #fafafa;
+    border-bottom: 1px solid #e4e4e4;
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topo .c1{
+    height: 30px;
+    width: 30px;
+    margin: 0px -8px;
+    padding-top: 2px;
+}
+
+.topo .c2{
+    height: 7px;
+    width: 7px;
+    margin: 0 18px;
+    margin-bottom: 2px;
+}
+
+.topo .c3{
+    margin: 0 -9px;
+    color: #5a5a5a;
+}
+
+.topo .c4{
+    height: 12px;
+    width: 12px;
+    margin: 0 16px;
+}
+
+.topo .c5{
+    height: 17px;
+    width: 17px;
+    margin: 0 16px;
+}
+
+.topo .c6{
+    height: 21px;
+    width: 21px;
+    margin: 0 16px;
+}
+
+.topo .c7{
+    height: 20px;
+    width: 20px;
+    margin: 0 16px;
+}
+
+.topo .c8{
+    height: 17px;
+    width: 17px;
+    margin: 0 16px;
+}
+
+.topo .borderem{
+    border-left: 1px solid #e4e4e4;
+
+}
+
+.topo p{
+    font-size: 14px;
+    font-family: Source sans pro, sans-serif;
+}
+
+.topo2{
+    background-color: white;
+    height: 36px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.topo2 span{
+    display: flex;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.topo2 p{
+    font-family: Source sans pro, sans-serif;
+    font-size: 14px;
+    color: #5a5a5a;
+    line-height: 20px;
+}
+
+.topo2 .b1{
+    padding: 0 35px 0 10px;
+}
+
+.topo2 .b2{
+    padding: 0 28px 0 10px;
+}
+
+.topo2 .b3{
+    padding: 0 30px 0 10px;
+}
+
+.topo2 img{
+    height: 21px;
+    width: 21px;
+}
+
+.topo2 .d4{
+    height: 17px;
+    width: 17px;
+    margin-right: 10px;
+}
+
+.topo2 .d5{
+    height: 17px;
+    width: 17px;
+    margin-right: 17px;
+}
+
+.line3{
+    background-color: white;
+    height: 24px;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+}
+
+.line3 .a1{
+    border-right: 1px solid #e4e4e4;
+    padding: 0 16px 0 10px;
+    color: #5c676d;
+}
+
+.line3 img {
+    height: 13px;
+    width: 13px;
+}
+
+.line3 .a2{
+    border-right: 1px solid #e4e4e4;
+    padding: 0 508px 0 12px;
+    color: #5c676d;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line3 .a3{
+    border-right: 1px solid #e4e4e4;
+    padding: 0 36px 0 12px;
+    color: #5c676d;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line3 .a4{
+    border-right: 1px solid #e4e4e4;
+    padding: 0 91px 0 12px;
+    color: #5c676d;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line3 .a5{
+    border-right: 1px solid #e4e4e4;
+    padding: 0 29px 0 12px;
+    color: #5c676d;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line3 .a6{
+    border-right: 1px solid #e4e4e4;
+    padding: 0 57px 0 12px;
+    color: #5c676d;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line3 .a7{
+    padding: 0 10px 0 12px;
+    color: #5c676d;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.line3 .a6 img{
+    height: 0px;
+    width: 0px;
+} 
+
+.line3 .a7 img{
+    height: 15px;
+    width: 15px;
+} 
+
+table {
+    width: 100%;
+    height: 24px;
+}
+
+table :nth-of-type(2n+1){
+    background-color: #fafafa;
+}
+
+td {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 24px;
+    padding-bottom: 4px;
+}
+
+
+.e1 {
+   height: 4px;
+   height: 4px; 
+   margin: 0 25px 0 14px;
+}
+
+.e2 {
+    height: 17px;
+    height: 17px; 
+    margin: 0 12px;
+}
+
+.e3 {
+    padding: 0 422px 0 0;
+    color: #40474b;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.e4 {
+    padding: 0 82px 0 0;
+    color: #40474b;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.e5 {
+    padding: 0 98px 0 0;
+    color: #40474b;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.e6 {
+    color: #40474b;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
